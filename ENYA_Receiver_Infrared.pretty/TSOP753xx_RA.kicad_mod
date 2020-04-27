@@ -1,4 +1,4 @@
-(module TSOP753xx_RA (layer F.Cu) (tedit 5E6E4AE4)
+(module TSOP753xx_RA (layer F.Cu) (tedit 5EA4BB9A)
   (descr "TSOP753xx Right Angle")
   (tags "ir, ir receiver")
   (fp_text reference REF** (at 0 2.413 180) (layer F.SilkS)
@@ -29,7 +29,7 @@
   (pad 2 smd roundrect (at -0.635 -0.889) (size 0.8 1.8) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.14))
   (pad 3 smd roundrect (at 0.635 -0.889) (size 0.8 1.8) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.062))
   (pad 4 smd roundrect (at 1.905 -0.889) (size 0.8 1.8) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.062))
-  (model ${JB_3D_MODELS}/JB_IrReceiver.3dshapes/TSOP753xx-RA.STEP
+  (model ${ENYA_3D_MODELS}/ENYA_Receiver_Infrared.3dshapes/TSOP753xx-RA.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

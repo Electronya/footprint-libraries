@@ -1,4 +1,4 @@
-(module MICROFIT_43650_MALE_1x3 (layer F.Cu) (tedit 5E7A815C)
+(module MICROFIT_43650_MALE_1x3 (layer F.Cu) (tedit 5EA4BACC)
   (descr "Molex Micro-Fit 3.0 Connector System, 43650-0315 (compatible alternatives: 43650-0316, 43650-0317), 3 Pins per row (http://www.molex.com/pdm_docs/sd/436500215_sd.pdf), generated with kicad-footprint-generator")
   (tags "connector Molex Micro-Fit_3.0 vertical")
   (fp_text reference REF** (at 3 -3.67) (layer F.SilkS)
@@ -43,6 +43,11 @@
   (pad 2 thru_hole oval (at 3 0) (size 1.651 2.032) (drill 1.016) (layers *.Cu *.Mask))
   (pad 3 thru_hole oval (at 6 0) (size 1.651 2.032) (drill 1.016) (layers *.Cu *.Mask))
   (model ${JB_3D_MODELS}/JB_Header_3mm.3dshapes/436500315.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${ENYA_3D_MODELS}/ENYA_Header_3mm.3dshapes/436500315.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,4 +1,4 @@
-(module SJ-435107 (layer F.Cu) (tedit 5E6E750A)
+(module SJ-435107 (layer F.Cu) (tedit 5EA4A358)
   (descr "TRS 3.5mm, horizontal, through-hole, with switch, circular holes, https://www.cui.com/product/resource/sj1-353xng.pdf")
   (tags "TRS audio jack stereo horizontal circular")
   (fp_text reference REF** (at 0.1 -6.45) (layer F.SilkS)
@@ -35,7 +35,7 @@
   (pad R2 thru_hole oval (at -4.5 0 90) (size 2.2 1.3) (drill 1) (layers *.Cu *.Mask))
   (pad T thru_hole oval (at -3.6 5 90) (size 2.2 1.3) (drill 1) (layers *.Cu *.Mask))
   (pad S thru_hole oval (at -0.7 8.3) (size 2.2 1.3) (drill 1) (layers *.Cu *.Mask))
-  (model ${JB_3D_MODELS}/JB_Connector_Barrel_Audio.3dshapes/SJ-435107.STEP
+  (model ${ENYA_3D_MODELS}/ENYA_Connector_Barrel_Audio.3dshapes/SJ-435107.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

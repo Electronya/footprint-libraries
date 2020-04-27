@@ -1,4 +1,4 @@
-(module MICROFIT_43045_MALE_2x12 (layer F.Cu) (tedit 5E7A8136)
+(module MICROFIT_43045_MALE_2x12 (layer F.Cu) (tedit 5EA4BAAA)
   (descr "Molex Micro-Fit 3.0 Connector System, 43045-2412 (compatible alternatives: 43045-2413, 43045-2424), 12 Pins per row (http://www.molex.com/pdm_docs/sd/430450212_sd.pdf), generated with kicad-footprint-generator")
   (tags "connector Molex Micro-Fit_3.0 side entry")
   (fp_text reference REF** (at 16.5 -3.67) (layer F.SilkS)
@@ -65,7 +65,7 @@
   (pad 22 thru_hole circle (at 27 3) (size 1.651 1.651) (drill 1.016) (layers *.Cu *.Mask))
   (pad 23 thru_hole circle (at 30 3) (size 1.651 1.651) (drill 1.016) (layers *.Cu *.Mask))
   (pad 24 thru_hole circle (at 33 3) (size 1.651 1.651) (drill 1.016) (layers *.Cu *.Mask))
-  (model ${JB_3D_MODELS}/JB_Header_3mm.3dshapes/430452412.step
+  (model ${ENYA_3D_MODELS}/ENYA_Header_3mm.3dshapes/430452412.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

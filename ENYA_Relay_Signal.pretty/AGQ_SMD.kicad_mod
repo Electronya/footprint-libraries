@@ -1,4 +1,4 @@
-(module AGQ_SMD (layer F.Cu) (tedit 5E7807E0)
+(module AGQ_SMD (layer F.Cu) (tedit 5EA4BBB5)
   (descr "Latching Single Coil DPDT Relay")
   (fp_text reference REF** (at 0.0254 -6.2738) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -30,7 +30,7 @@
   (pad 6 smd roundrect (at 3.08 1.6) (size 2.6 0.8) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 7 smd roundrect (at 3.08 -0.6) (size 2.6 0.8) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
   (pad 8 smd roundrect (at 3.08 -3.8) (size 2.6 0.8) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${JB_3D_MODELS}/JB_Relay_Signal.3dshapes/AGQ210S4H.step
+  (model ${ENYA_3D_MODELS}/ENYA_Relay_Signal.3dshapes/AGQ210S4H.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

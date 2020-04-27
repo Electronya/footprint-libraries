@@ -1,4 +1,4 @@
-(module QEB363GR (layer F.Cu) (tedit 5E6E9292)
+(module QEB363GR (layer F.Cu) (tedit 5EA4B9F5)
   (descr "EMITTER IR 940NM 50MA SMD")
   (tags "ir emitter")
   (attr smd)
@@ -28,7 +28,7 @@
   (fp_line (start 2.667 1.27) (end -2.413 1.27) (layer F.CrtYd) (width 0.05))
   (pad 2 smd roundrect (at 2.032 0 180) (size 1 0.85) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.125))
   (pad 1 smd roundrect (at -1.778 0 180) (size 1 0.85) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.125))
-  (model ${JB_3D_MODELS}/JB_IrEmitter.3dshapes/QEB363GR.step
+  (model ${ENYA_3D_MODELS}/ENYA_Diode_Infrared.3dshapes/QEB363GR.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
