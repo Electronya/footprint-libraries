@@ -1,4 +1,4 @@
-(module M2.5x0.45_3MM (layer F.Cu) (tedit 60FA28C2)
+(module M2.5x0.45_3MM (layer F.Cu) (tedit 618F1993)
   (descr "RND STANDOFF M2.5X0.45 STEEL 3MM")
   (tags Standoff)
   (attr smd)
@@ -8,9 +8,9 @@
   (fp_text value M2.5x0.45_3MM (at 0 4.445) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_circle (center 0 0) (end 3.304441 0) (layer F.SilkS) (width 0.12))
-  (fp_circle (center 0 0) (end 2.55 0) (layer F.Fab) (width 0.1))
   (fp_circle (center 0 0) (end 3.429 0.127) (layer F.CrtYd) (width 0.05))
+  (fp_circle (center 0 0) (end 2.55 0) (layer F.Fab) (width 0.1))
+  (fp_circle (center 0 0) (end 3.304441 0) (layer F.SilkS) (width 0.12))
   (fp_text user %R (at 0 0) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -83,7 +83,7 @@
       (gr_line (start -1.05 1.3) (end -0.1 1.3) (width 0.2))
     ))
   (pad 1 thru_hole circle (at 0 0) (size 6 6) (drill 3.7) (layers F.Cu F.Mask))
-  (model ${ENYA_3D_MODELS}/ENYA_Standoffs.3dshapes/9774030151R.step
+  (model ${ENYA_3DMOD}/ENYA_Standoffs.3dshapes/9774030151R.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
