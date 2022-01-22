@@ -1,6 +1,6 @@
 (footprint "PCC-SMD-20" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61E502A6)
+  (tedit 61EC4970)
   (attr smd)
   (fp_text reference "REF**" (at 0 -8 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -48,4 +48,9 @@
   (pad "" np_thru_hole oval (at 4.09 5.52) (size 4 1.5) (drill oval 4 1.5) (layers *.Mask) (tstamp b27db679-b86d-42b5-8f64-2d75873195c1))
   (pad "1" smd rect (at 3.735 0) (size 4.27 9) (layers "F.Cu" "F.Mask") (tstamp 9f54f3a1-e56a-4313-9456-9bba135e364b))
   (pad "1" smd rect (at 6.54 0) (size 1.34 4.32) (layers "F.Cu" "F.Mask") (tstamp e05bfb65-2171-4ed9-82dc-7a815dbb2602))
+  (model "${ENYA_3DMOD}/ENYA_Connector_THERMO.3dshapes/PCC-SMD.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

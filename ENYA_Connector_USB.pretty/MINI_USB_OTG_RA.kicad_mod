@@ -1,6 +1,6 @@
 (footprint "MINI_USB_OTG_RA" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61EBF8D5)
+  (tedit 61EC4843)
   (descr "Mini USB 2.0 Type B SMT Horizontal 5 Contacts (https://katalog.we-online.de/em/datasheet/65100516121.pdf)")
   (tags "Mini USB 2.0 Type B")
   (attr smd)
@@ -45,7 +45,7 @@
   (pad "6" smd roundrect (at 4 -2.65) (size 2.1 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp b02f6423-1a09-47dc-9704-077bacf2b269))
   (pad "6" smd roundrect (at 2.05 1.4) (size 1.3 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d449b6ec-5276-4eb4-9ba2-28f16c207018))
   (pad "6" smd roundrect (at -4 -2.65) (size 2.2 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp ecd41174-78ae-4151-b616-64312a115550))
-  (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 94f916ed-7d8d-4c18-a00c-ed22517e241d) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 842e430f-0c35-45f3-a0b5-95ae7b7ae388) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254)
     (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints allowed))
@@ -59,7 +59,7 @@
       )
     )
   )
-  (model "${ENYA_3DMOD}/ENYA_Connector_USB/513870530.step"
+  (model "${ENYA_3DMOD}/ENYA_Connector_USB.3dshapes/513870530.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,6 +1,6 @@
 (footprint "FH12-22S-0.5SH(55)" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61E492D9)
+  (tedit 61EC49D2)
   (descr "Hirose FH12, FFC/FPC connector, FH12-22S-0.5SH, 22 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator")
   (tags "connector Hirose FH12 horizontal")
   (attr smd)
@@ -68,4 +68,9 @@
   (pad "20" smd roundrect (at 4.25 -1.85) (size 0.3 1.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 6acc0ad7-e774-41ed-9668-0a42c795dc41))
   (pad "21" smd roundrect (at 4.75 -1.85) (size 0.3 1.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 13908d30-6f57-458d-a677-a14c2d067458))
   (pad "22" smd roundrect (at 5.25 -1.85) (size 0.3 1.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp ae6c60b4-9539-4e29-b1c2-964e065cee8f))
+  (model "${ENYA_3DMOD}/ENYA_Connector_Ffc_Fpc.3dshapes/FH12-22S-0.5SH(55).step"
+    (offset (xyz 0 -1.4 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
