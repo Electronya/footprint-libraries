@@ -1,6 +1,6 @@
 (footprint "XFDFN-5_1.0x0.6mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61E431F1)
+  (tedit 61EC79B2)
   (descr "5-Lead Plastic XFDFN (1.0mm x 0.6mm)")
   (tags "XFDFN")
   (attr smd)
@@ -32,4 +32,9 @@
   (pad "3" smd roundrect (at -0.2575 0.35) (size 0.34 0.175) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 9a441871-eb22-4c72-ac35-2200feab42b2))
   (pad "4" smd roundrect (at 0.2575 0.175) (size 0.34 0.175) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 2531baad-8e8d-4d4c-bd98-5bc629cbfac5))
   (pad "5" smd roundrect (at 0.2575 -0.175) (size 0.34 0.175) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d0ca70e9-1a7a-444e-8f18-b05a865d90f8))
+  (model "${ENYA_3DMOD}/ENYA_Package_DFN_QFN.3dshapes/XFDFN-5_1.0x0.6mm.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
