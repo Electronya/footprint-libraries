@@ -1,6 +1,6 @@
 (footprint "MINI_USB_OTG_RA" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61F69C0D)
+  (tedit 6224ED27)
   (descr "Mini USB 2.0 Type B SMT Horizontal 5 Contacts (https://katalog.we-online.de/em/datasheet/65100516121.pdf)")
   (tags "Mini USB 2.0 Type B")
   (attr smd)
